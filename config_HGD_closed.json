@@ -1,0 +1,16 @@
+{
+    "data_root" : "../../dataset/HGD",
+    "checkpoint_path" : "Result_HGD/test_",
+    "batch_size": 64,
+    "test_batch_size" : 200,
+    "learning_rate": 0.001,
+    "seed": 2022, 
+    "num_workers": 16,
+    "n_class" : 3,
+    "n_ch" : 44,
+    "n_time" : 1125,
+    "epochs" : 100,
+    "use_checkpoint" : false,
+    "model":"ResNet-18",
+    "memo":"si"
+}
